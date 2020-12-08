@@ -1,0 +1,8 @@
+Question 1: Will it snow tomorrow?
+Fortune: My sources say no.
+Question 2: Will it snow tonight?
+Fortune: Yes.
+Question 3: Will it snow on Friday?
+Fortune: It is decidedly so.
+Question 4: Will it ever snow?
+Fortune: Ask again later.
