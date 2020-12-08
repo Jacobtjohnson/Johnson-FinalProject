@@ -8,11 +8,9 @@ def main():
     while(playing):
         count += 1
         fortunes = []
-        fortuneList = fortuneGetter(fortunes) # pulls all fortunes from magic8.txt
-        finalFortune = fortuneForGame(fortuneList)# creates a dictionary with 8 random fortunes
-        #print(finalFortune)
+        fortuneList = fortuneGetter(fortunes)
+        finalFortune = fortuneForGame(fortuneList)
         option = fortunePicker(finalFortune)
-        #print(option)
         userQuestion = input("Ask a yes or no question: ")
         future = finalFortune[int(option)]
         print(future)
